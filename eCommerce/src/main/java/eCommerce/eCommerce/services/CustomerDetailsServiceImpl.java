@@ -4,6 +4,7 @@ package eCommerce.eCommerce.services;
 import eCommerce.eCommerce.dtos.CustomerDetailsDto;
 import eCommerce.eCommerce.models.CustomerDetails;
 import eCommerce.eCommerce.repositories.CustomerDetailsRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,28 +12,35 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Slf4j
 public class CustomerDetailsServiceImpl implements CustomerDetailsService {
 
-   @Autowired
-   private CustomerDetailsRepository repository;
+    @Autowired
+    private CustomerDetailsRepository repository;
 
     @Override
     public CustomerDetails save(CustomerDetailsDto dto) {
-        CustomerDetails customer = new CustomerDetails();
-        customer.setFirstName(dto.firstName());
-        customer.setLastName(dto.lastName());
-        customer.setCity(dto.city());
-        customer.setCountry(dto.country());
-        customer.setPhone(dto.phone());
-        customer.setPostalCode(dto.postalCode());
-        customer.setState(dto.state());
-        customer.setAddress(dto.address());
-        customer.setEmail(dto.email());
+
+        log.info("ACTION START SERVICE_LAYER save ");
+        CustomerDetails customer = CustomerDetails.builder()
+                .firstName(dto.firstName())
+                .lastName(dto.lastName())
+                .city(dto.city())
+                .country(dto.country())
+                .phone(dto.phone())
+                .postalCode(dto.postalCode())
+                .state(dto.state())
+                .address(dto.address())
+                .email(dto.email()).build();
         CustomerDetails saved = repository.save(customer);
+        log.info("ACTION END SERVICE_LAYER save ");
+
         return toDto(saved);
     }
 
     public List<CustomerDetails> getAll() {
+
+        log.info("ACTION START SERVICE_LAYER getAll ");
         return repository.findAll().stream()
                 .map(this::toDto)
                 .collect(Collectors.toList());
@@ -40,12 +48,23 @@ public class CustomerDetailsServiceImpl implements CustomerDetailsService {
 
     @Override
     public CustomerDetails getById(Long id) {
+
+        log.info("ACTION START SERVICE_LAYER getById ");
         CustomerDetails customer = repository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Customer not found"));
         return toDto(customer);
     }
 
+    @Override
+    public Void delete(Long id){
+        CustomerDetails response=getById(id);
+        repository.delete(response);
+        return null;
+    }
+
     private CustomerDetails toDto(CustomerDetails c) {
+
+        log.info("ACTION START SERVICE_LAYER toDto ");
         return new CustomerDetails(
                 c.getId(),
                 c.getFirstName(),
