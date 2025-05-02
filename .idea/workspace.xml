@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c383eebb-39c4-4649-b931-45649e95f5c1" name="Changes" comment="unversioned files commited">
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/configs/ApplicationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/configs/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/configs/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/controllers/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/dtos/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/dtos/LoginUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/dtos/OrderItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/dtos/PurchaseItemsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/dtos/RegisterUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/models/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/services/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/services/Implementations/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/services/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/controllers/CustomerDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/controllers/CustomerDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/services/CustomerDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/java/eCommerce/eCommerce/services/Implementations/CustomerDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eCommerce/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vinulmanjitha&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vinulmanjitha/eCommerce_BE.git&quot;,
+    &quot;accountId&quot;: &quot;35a1f2e5-dc23-4022-bd49-1608122d1f68&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2vc5QGNO6vGGKxqSC3XZKzbqc9t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ECommerceApplication.executor": "Run",
+    "Maven.eCommerce [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/laptop",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/My projects/eCommerce-BE",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Downloads\eCommerce\eCommerce\src\main\java\eCommerce\eCommerce\controllers" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="eCommerce.eCommerce.services.Implementations" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ECommerceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="eCommerce.eCommerce.ECommerceApplication" />
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eCommerce.eCommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ECommerceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c383eebb-39c4-4649-b931-45649e95f5c1" name="Changes" comment="" />
+      <created>1744431503380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744431503380</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1744481193683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744481193683</updated>
+    </task>
+    <task id="LOCAL-00002" summary="logs added,error msgs fixed">
+      <option name="closed" value="true" />
+      <created>1744609259247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744609259247</updated>
+    </task>
+    <task id="LOCAL-00003" summary="unversioned files commited">
+      <option name="closed" value="true" />
+      <created>1744609877088</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744609877088</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="logs added,error msgs fixed" />
+    <MESSAGE value="unversioned files commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="unversioned files commited" />
+  </component>
+</project>

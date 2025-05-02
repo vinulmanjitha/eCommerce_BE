@@ -1,9 +1,10 @@
-package eCommerce.eCommerce.services;
+package eCommerce.eCommerce.services.Implementations;
 
 
 import eCommerce.eCommerce.dtos.CustomerDetailsDto;
 import eCommerce.eCommerce.models.CustomerDetails;
 import eCommerce.eCommerce.repositories.CustomerDetailsRepository;
+import eCommerce.eCommerce.services.CustomerDetailsService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

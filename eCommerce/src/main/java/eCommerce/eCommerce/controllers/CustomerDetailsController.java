@@ -42,7 +42,7 @@ public class CustomerDetailsController {
     @GetMapping("/{id}")
     public ResponseEntity<CustomerDetails> getById(@PathVariable Long id) {
 
-        log.info("ACTION START CONTROLLER_LAYER getById ");
+        log.info("START CONTROLLER_LAYER getById  getById ");
         CustomerDetails response = CustomerDetailsService.getById(id);
         log.info("ACTION END CONTROLLER_LAYER getById {}", response);
 
